@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T09:12:55.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QKdM-ZE-PVHMLmwvImxI" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-27T09:53:13.204Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ZFtegEToY4CpzBoPvPfK" version="24.4.8" type="github">
   <diagram name="第 1 页" id="h5uSdNXz_CgG29KLq9Y8">
     <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
           <mxGeometry x="240" y="526" width="50" height="42" as="geometry" />
         </mxCell>
         <mxCell id="nFGpDfKgTvFEV3B7aKJz-3" value="setnx:true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="501.43" width="80" height="30" as="geometry" />
+          <mxGeometry x="304" y="505" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nFGpDfKgTvFEV3B7aKJz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nFGpDfKgTvFEV3B7aKJz-1" target="ZrZEr-ucLDgyxE3sHomG-27">
           <mxGeometry relative="1" as="geometry" />
@@ -112,8 +112,11 @@
         <mxCell id="nFGpDfKgTvFEV3B7aKJz-8" value="setnx:false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="171" y="430" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nFGpDfKgTvFEV3B7aKJz-9" value="lock:A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="585" width="80" height="60" as="geometry" />
+        <mxCell id="nFGpDfKgTvFEV3B7aKJz-9" value="lock:A&lt;br&gt;（30秒）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="570" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nFGpDfKgTvFEV3B7aKJz-12" value="服务器A执行了40秒" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="369" y="575" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
